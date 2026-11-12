@@ -1,0 +1,6 @@
+target/
+sqlserver-data/
+.git/
+.github/
+.idea/
+*.iml

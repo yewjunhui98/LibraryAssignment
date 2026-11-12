@@ -1,0 +1,24 @@
+2026-11-12T09:20:23.826Z [dotnet /app/ASDE.Dotnet.dll] [164] ASDE.Dotnet starting up
+2026-11-12T09:20:23.827Z [dotnet /app/ASDE.Dotnet.dll] [164] MSSQL_LCID: 
+2026-11-12T09:20:23.837Z [dotnet /app/ASDE.Dotnet.dll] [164] Creating ASA Job Manager with: OfflineEdgeHubClientWrapper
+2026-11-12T09:20:23.889Z [dotnet /app/ASDE.Dotnet.dll] [164] Initializing ASA Job Manager
+2026-11-12T09:20:23.895Z [dotnet /app/ASDE.Dotnet.dll] [164] ASDE.Dotnet entering main loop.
+2026-11-12T09:20:23.896Z [dotnet /app/ASDE.Dotnet.dll] [164] Satellite listener exists. Starting ASASatelliteService.
+2026-11-12T09:20:23.897Z [dotnet /app/ASDE.Dotnet.dll] [164] Waiting for next message
+2026-11-12T09:20:24.071Z [dotnet /app/ASDE.Dotnet.dll] [164] Waiting for next message
+2026-11-12T09:20:24.119Z [dotnet /app/ASDE.Dotnet.dll] [164] Operation: NotifyJobsRecovered
+2026-11-12T09:20:24.121Z [dotnet /app/ASDE.Dotnet.dll] [164] Job recovery notification received.
+2026-11-12T09:20:24.121Z [dotnet /app/ASDE.Dotnet.dll] [164] Operation: NotifyJobsRecovered success: True. message: 
+2026-11-12T09:20:24.132Z [dotnet /app/ASDE.Dotnet.dll] [164] Sending response message for 2654deb4-319f-4cac-bc9d-2648a83fcbff with length: 162
+2026-11-12T09:25:12.071Z [dotnet /app/ASDE.Dotnet.dll] [166] ASDE.Dotnet starting up
+2026-11-12T09:25:12.073Z [dotnet /app/ASDE.Dotnet.dll] [166] MSSQL_LCID: 
+2026-11-12T09:25:12.081Z [dotnet /app/ASDE.Dotnet.dll] [166] Creating ASA Job Manager with: OfflineEdgeHubClientWrapper
+2026-11-12T09:25:12.128Z [dotnet /app/ASDE.Dotnet.dll] [166] Initializing ASA Job Manager
+2026-11-12T09:25:12.134Z [dotnet /app/ASDE.Dotnet.dll] [166] ASDE.Dotnet entering main loop.
+2026-11-12T09:25:12.134Z [dotnet /app/ASDE.Dotnet.dll] [166] Satellite listener exists. Starting ASASatelliteService.
+2026-11-12T09:25:12.136Z [dotnet /app/ASDE.Dotnet.dll] [166] Waiting for next message
+2026-11-12T09:25:12.537Z [dotnet /app/ASDE.Dotnet.dll] [166] Waiting for next message
+2026-11-12T09:25:12.589Z [dotnet /app/ASDE.Dotnet.dll] [166] Operation: NotifyJobsRecovered
+2026-11-12T09:25:12.590Z [dotnet /app/ASDE.Dotnet.dll] [166] Job recovery notification received.
+2026-11-12T09:25:12.591Z [dotnet /app/ASDE.Dotnet.dll] [166] Operation: NotifyJobsRecovered success: True. message: 
+2026-11-12T09:25:12.602Z [dotnet /app/ASDE.Dotnet.dll] [166] Sending response message for 7990d628-3879-489a-a0ae-4c5f245be420 with length: 162

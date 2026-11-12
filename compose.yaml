@@ -1,0 +1,44 @@
+name: library
+
+services:
+  sqlserver:
+    # SQL Server Express is published only as linux/amd64. On this Apple Silicon
+    # Podman machine that image segfaults under qemu (exit 139). Azure SQL Edge is
+    # Microsoft's ARM64 SQL Server engine: same TDS protocol, sa login, and data directory.
+    image: mcr.microsoft.com/azure-sql-edge:latest
+    platform: linux/arm64
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "${MSSQL_SA_PASSWORD:-Library_Assign1!}"
+      TZ: UTC
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./sqlserver-data:/var/opt/mssql
+    shm_size: "1gb"
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - grep -q "SQL Server is now ready for client connections" /var/opt/mssql/log/errorlog
+      interval: 5s
+      timeout: 5s
+      retries: 40
+      start_period: 15s
+
+  api:
+    build:
+      context: .
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:sqlserver://sqlserver:1433;databaseName=library;encrypt=true;trustServerCertificate=true
+      SPRING_DATASOURCE_USERNAME: sa
+      SPRING_DATASOURCE_PASSWORD: "${MSSQL_SA_PASSWORD:-Library_Assign1!}"
+      SQLSERVER_HOST: sqlserver
+      SQLSERVER_PORT: "1433"
+      WAIT_FOR_SQL: "true"
+      TZ: UTC
+      PORT: "8080"
+    ports:
+      - "8080:8080"
+    depends_on:
+      sqlserver:
+        condition: service_healthy
