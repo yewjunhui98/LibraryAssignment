@@ -14,7 +14,7 @@ public class OpenApiConfig {
                 .title("Library API")
                 .version("1.0.0")
                 .description("""
-                        Register borrowers and book copies, list every copy in the library, \
+                        Register borrowers and book copies, list borrowers, ISBNs, and copies, \
                         and borrow or return a copy on behalf of a borrower. \
                         Interactive documentation is served by Swagger UI."""));
     }

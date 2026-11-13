@@ -50,7 +50,9 @@ Configuration is environment variables, listed in `compose.yaml` and `src/main/r
 | Action | Method and path | Success |
 | --- | --- | --- |
 | Register a borrower | `POST /api/borrowers` | 201 |
+| List every borrower | `GET /api/borrowers` | 200 |
 | Register a book copy | `POST /api/books` | 201 |
+| List every ISBN | `GET /api/isbns` | 200 |
 | List every book copy | `GET /api/books` | 200 |
 | Borrow a copy | `POST /api/books/{bookId}/borrow` | 200 |
 | Return a copy | `POST /api/books/{bookId}/return` | 200 |
@@ -63,6 +65,10 @@ curl -s -X POST http://localhost:8080/api/borrowers \
 curl -s -X POST http://localhost:8080/api/books \
   -H 'Content-Type: application/json' \
   -d '{"isbn":"978-0-13-468599-1","title":"Effective Java","author":"Joshua Bloch"}'
+
+curl -s http://localhost:8080/api/borrowers
+
+curl -s http://localhost:8080/api/isbns
 
 curl -s http://localhost:8080/api/books
 

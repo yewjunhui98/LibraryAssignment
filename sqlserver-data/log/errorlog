@@ -1,119 +1,120 @@
-2026-11-12 09:25:08.75 Server      Microsoft Azure SQL Edge Developer (RTM) - 15.0.2000.1574 (ARM64) 
+2026-11-13 07:11:47.78 Server      Microsoft Azure SQL Edge Developer (RTM) - 15.0.2000.1574 (ARM64) 
 	Jan 25 2023 10:36:08 
 	Copyright (C) 2019 Microsoft Corporation
 	Linux (Ubuntu 18.04.6 LTS aarch64) <ARM64>
-2026-11-12 09:25:08.75 Server      UTC adjustment: 0:00
-2026-11-12 09:25:08.75 Server      (c) Microsoft Corporation.
-2026-11-12 09:25:08.75 Server      All rights reserved.
-2026-11-12 09:25:08.75 Server      Server process ID is 36.
-2026-11-12 09:25:08.75 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
-2026-11-12 09:25:08.75 Server      Registry startup parameters: 
+2026-11-13 07:11:47.79 Server      UTC adjustment: 0:00
+2026-11-13 07:11:47.79 Server      (c) Microsoft Corporation.
+2026-11-13 07:11:47.79 Server      All rights reserved.
+2026-11-13 07:11:47.79 Server      Server process ID is 36.
+2026-11-13 07:11:47.79 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2026-11-13 07:11:47.79 Server      Registry startup parameters: 
 	 -d /var/opt/mssql/data/master.mdf
 	 -l /var/opt/mssql/data/mastlog.ldf
 	 -e /var/opt/mssql/log/errorlog
-2026-11-12 09:25:08.75 Server      SQL Server detected 1 sockets with 4 cores per socket and 4 logical processors per socket, 4 total logical processors; using 4 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
-2026-11-12 09:25:08.76 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
-2026-11-12 09:25:08.76 Server      Detected 4720 MB of RAM. This is an informational message; no user action is required.
-2026-11-12 09:25:08.76 Server      Using conventional memory in the memory manager.
-2026-11-12 09:25:08.76 Server      Page exclusion bitmap is enabled.
-2026-11-12 09:25:08.78 Server      Buffer Pool: Allocating 1048576 bytes for 693663 hashPages.
-2026-11-12 09:25:09.09 Server      Buffer pool extension is already disabled. No action is necessary.
-2026-11-12 09:25:09.98 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
-2026-11-12 09:25:10.00 Server      Query Store settings initialized with enabled = 1, 
-2026-11-12 09:25:10.01 Server      Node configuration: node 0: CPU mask: 0x000000000000000f:0 Active CPU mask: 0x000000000000000f:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
-2026-11-12 09:25:10.02 Server      Using dynamic lock allocation.  Initial allocation of 500 Lock blocks and 1000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
-2026-11-12 09:25:10.03 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
-2026-11-12 09:25:10.03 Server      Total Log Writer threads: 1. This is an informational message; no user action is required.
-2026-11-12 09:25:10.04 Server      Software Usage Metrics is disabled.
-2026-11-12 09:25:10.04 spid9s      [1]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 0. CleanupUnderUserTransaction: 0.
-2026-11-12 09:25:10.04 spid9s      Starting up database 'master'.
-2026-11-12 09:25:10.14 spid9s      Refresh DEK for DBID: [1] File Id: [1] - Zeroring encryption state
-2026-11-12 09:25:10.14 spid9s      The DEK is already set for DBID = [1] file id 1.
-2026-11-12 09:25:10.25 spid9s      Refresh DEK for DBID: [1] File Id: [2] - Zeroring encryption state
-2026-11-12 09:25:10.25 spid9s      The DEK is already set for DBID = [1] file id 2.
-2026-11-12 09:25:10.27 spid9s      27 transactions rolled forward in database 'master' (1:0). This is an informational message only. No user action is required.
-2026-11-12 09:25:10.28 spid9s      0 transactions rolled back in database 'master' (1:0). This is an informational message only. No user action is required.
-2026-11-12 09:25:10.28 spid9s      Recovery is writing a checkpoint in database 'master' (1). This is an informational message only. No user action is required.
-2026-11-12 09:25:10.72 spid9s      SQL Server Audit is starting the audits. This is an informational message. No user action is required.
-2026-11-12 09:25:10.72 spid9s      SQL Server Audit has started the audits. This is an informational message. No user action is required.
-2026-11-12 09:25:10.76 spid9s      SQL Trace ID 1 was started by login "sa".
-2026-11-12 09:25:10.77 spid9s      Server name is '4da18c58c12d'. This is an informational message only. No user action is required.
-2026-11-12 09:25:10.77 spid9s      [4]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 0. CleanupUnderUserTransaction: 0.
-2026-11-12 09:25:10.77 spid9s      Starting up database 'msdb'.
-2026-11-12 09:25:10.77 spid11s     [32767]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 0. CleanupUnderUserTransaction: 0.
-2026-11-12 09:25:10.77 spid11s     Starting up database 'mssqlsystemresource'.
-2026-11-12 09:25:10.78 spid11s     Refresh DEK for DBID: [32767] File Id: [1] - Copying encryption state
-2026-11-12 09:25:10.78 spid11s     DBID: [32767] File Header for File Id: [1] was read with state = 0.
-2026-11-12 09:25:10.78 spid11s     DBID: [32767] No DEK update for File Id: [1] while existing DEK is null.
-2026-11-12 09:25:10.78 spid11s     The resource database build version is 15.00.2000. This is an informational message only. No user action is required.
-2026-11-12 09:25:10.79 spid11s     Refresh DEK for DBID: [32767] File Id: [2] - Copying encryption state
-2026-11-12 09:25:10.79 spid11s     DBID: [32767] File Header for File Id: [2] was read with state = 0.
-2026-11-12 09:25:10.79 spid11s     DBID: [32767] No DEK update for File Id: [2] while existing DEK is null.
-2026-11-12 09:25:10.81 spid11s     [3]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 0. CleanupUnderUserTransaction: 0.
-2026-11-12 09:25:10.81 spid11s     Starting up database 'model'.
-2026-11-12 09:25:10.89 spid9s      Refresh DEK for DBID: [4] File Id: [1] - Copying encryption state
-2026-11-12 09:25:10.90 spid9s      DBID: [4] File Header for File Id: [1] was read with state = 0.
-2026-11-12 09:25:10.90 spid9s      DBID: [4] No DEK update for File Id: [1] while existing DEK is null.
-2026-11-12 09:25:10.92 spid11s     Refresh DEK for DBID: [3] File Id: [1] - Zeroring encryption state
-2026-11-12 09:25:10.93 spid11s     The DEK is already set for DBID = [3] file id 1.
-2026-11-12 09:25:11.01 spid9s      Refresh DEK for DBID: [4] File Id: [2] - Copying encryption state
-2026-11-12 09:25:11.01 spid9s      DBID: [4] File Header for File Id: [2] was read with state = 0.
-2026-11-12 09:25:11.01 spid9s      DBID: [4] No DEK update for File Id: [2] while existing DEK is null.
-2026-11-12 09:25:11.02 spid9s      4 transactions rolled forward in database 'msdb' (4:0). This is an informational message only. No user action is required.
-2026-11-12 09:25:11.02 spid9s      0 transactions rolled back in database 'msdb' (4:0). This is an informational message only. No user action is required.
-2026-11-12 09:25:11.02 spid9s      Recovery is writing a checkpoint in database 'msdb' (4). This is an informational message only. No user action is required.
-2026-11-12 09:25:11.03 spid22s     A self-generated certificate was successfully loaded for encryption.
-2026-11-12 09:25:11.04 spid22s     Server is listening on [ 'any' <ipv6> 1433] accept sockets 1.
-2026-11-12 09:25:11.04 spid11s     Refresh DEK for DBID: [3] File Id: [2] - Zeroring encryption state
-2026-11-12 09:25:11.04 spid11s     The DEK is already set for DBID = [3] file id 2.
-2026-11-12 09:25:11.04 spid22s     Server is listening on [ 'any' <ipv4> 1433] accept sockets 1.
-2026-11-12 09:25:11.04 spid11s     11 transactions rolled forward in database 'model' (3:0). This is an informational message only. No user action is required.
-2026-11-12 09:25:11.05 spid22s     Dedicated administrator connection support was not started because it is disabled on this edition of SQL Server. If you want to use a dedicated administrator connection, restart SQL Server using the trace flag 7806. This is an informational message only. No user action is required.
-2026-11-12 09:25:11.05 spid11s     0 transactions rolled back in database 'model' (3:0). This is an informational message only. No user action is required.
-2026-11-12 09:25:11.05 spid11s     Recovery is writing a checkpoint in database 'model' (3). This is an informational message only. No user action is required.
-2026-11-12 09:25:11.05 spid22s     Server is listening on [ ::1 <ipv6> 1431] accept sockets 1.
-2026-11-12 09:25:11.06 spid22s     Server is listening on [ 127.0.0.1 <ipv4> 1431] accept sockets 1.
-2026-11-12 09:25:11.06 spid22s     SQL Server is now ready for client connections. This is an informational message; no user action is required.
-2026-11-12 09:25:11.06 spid11s     Clearing tempdb database.
-2026-11-12 09:25:11.52 spid11s     Refresh DEK for DBID: [2] File Id: [1] - Copying encryption state
-2026-11-12 09:25:11.52 spid11s     DBID: [2] File Header for File Id: [1] was read with state = 0.
-2026-11-12 09:25:11.52 spid11s     DBID: [2] No DEK update for File Id: [1] while existing DEK is null.
-2026-11-12 09:25:11.59 spid11s     Refresh DEK for DBID: [2] File Id: [2] - Copying encryption state
-2026-11-12 09:25:11.59 spid11s     DBID: [2] File Header for File Id: [2] was read with state = 0.
-2026-11-12 09:25:11.60 spid11s     DBID: [2] No DEK update for File Id: [2] while existing DEK is null.
-2026-11-12 09:25:11.61 spid11s     [2]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 0. CleanupUnderUserTransaction: 0.
-2026-11-12 09:25:11.61 spid11s     Starting up database 'tempdb'.
-2026-11-12 09:25:11.75 spid11s     Refresh DEK for DBID: [2] File Id: [1] - Copying encryption state
-2026-11-12 09:25:11.75 spid11s     DBID: [2] File Header for File Id: [1] was read with state = 0.
-2026-11-12 09:25:11.75 spid11s     DBID: [2] No DEK update for File Id: [1] while existing DEK is null.
-2026-11-12 09:25:11.83 Server      Server is listening on [ 127.0.0.1 <ipv4> 14300] accept sockets 1.
-2026-11-12 09:25:11.83 Server      Server is listening on [ 127.0.0.1 <ipv4> 45811] accept sockets 1.
-2026-11-12 09:25:11.86 spid11s     Refresh DEK for DBID: [2] File Id: [2] - Copying encryption state
-2026-11-12 09:25:11.86 spid11s     DBID: [2] File Header for File Id: [2] was read with state = 0.
-2026-11-12 09:25:11.87 spid11s     DBID: [2] No DEK update for File Id: [2] while existing DEK is null.
-2026-11-12 09:25:11.91 spid11s     The tempdb database has 1 data file(s).
-2026-11-12 09:25:11.91 spid25s     The Service Broker endpoint is in disabled or stopped state.
-2026-11-12 09:25:11.91 spid9s      Recovery is complete. This is an informational message only. No user action is required.
-2026-11-12 09:25:11.91 spid25s     The Database Mirroring endpoint is in disabled or stopped state.
-2026-11-12 09:25:11.93 spid25s     Service Broker manager has started.
-2026-11-12 09:25:12.10 spid51      Refresh DEK for DBID: [5] File Id: [1] - Copying encryption state
-2026-11-12 09:25:12.10 spid51      DBID: [5] File Header for File Id: [1] was read with state = 0.
-2026-11-12 09:25:12.11 spid51      DBID: [5] No DEK update for File Id: [1] while existing DEK is null.
-2026-11-12 09:25:12.16 spid51      Refresh DEK for DBID: [5] File Id: [2] - Copying encryption state
-2026-11-12 09:25:12.16 spid51      DBID: [5] File Header for File Id: [2] was read with state = 0.
-2026-11-12 09:25:12.16 spid51      DBID: [5] No DEK update for File Id: [2] while existing DEK is null.
-2026-11-12 09:25:12.17 spid51      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 0. CleanupUnderUserTransaction: 0.
-2026-11-12 09:25:12.17 spid51      Starting up database 'library'.
-2026-11-12 09:25:12.28 spid51      Refresh DEK for DBID: [5] File Id: [1] - Copying encryption state
-2026-11-12 09:25:12.28 spid51      DBID: [5] File Header for File Id: [1] was read with state = 0.
-2026-11-12 09:25:12.29 spid51      DBID: [5] No DEK update for File Id: [1] while existing DEK is null.
-2026-11-12 09:25:12.39 spid51      Refresh DEK for DBID: [5] File Id: [2] - Copying encryption state
-2026-11-12 09:25:12.39 spid51      DBID: [5] File Header for File Id: [2] was read with state = 0.
-2026-11-12 09:25:12.39 spid51      DBID: [5] No DEK update for File Id: [2] while existing DEK is null.
-2026-11-12 09:25:12.40 spid51      Parallel redo is started for database 'library' with worker pool size [2].
-2026-11-12 09:25:12.41 spid51      Parallel redo is shutdown for database 'library' with worker pool size [2].
-2026-11-12 09:25:12.49 Server      Configuring Always Encrypted enclave in asynchronous mode.
-2026-11-12 09:25:46.83 spid51      Attempting to load library 'xplog70.dll' into memory. This is an informational message only. No user action is required.
-2026-11-12 09:25:46.92 spid51      Using 'xplog70.dll' version '2019.150.2000' to execute extended stored procedure 'xp_msver'. This is an informational message only; no user action is required.
-2026-11-12 09:37:54.65 spid61      Attempting to load library 'xpstar.dll' into memory. This is an informational message only. No user action is required.
-2026-11-12 09:37:54.75 spid61      Using 'xpstar.dll' version '2019.150.2000' to execute extended stored procedure 'xp_instance_regread'. This is an informational message only; no user action is required.
+2026-11-13 07:11:47.79 Server      SQL Server detected 1 sockets with 4 cores per socket and 4 logical processors per socket, 4 total logical processors; using 4 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2026-11-13 07:11:47.80 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2026-11-13 07:11:47.80 Server      Detected 4720 MB of RAM. This is an informational message; no user action is required.
+2026-11-13 07:11:47.80 Server      Using conventional memory in the memory manager.
+2026-11-13 07:11:47.80 Server      Page exclusion bitmap is enabled.
+2026-11-13 07:11:47.82 Server      Buffer Pool: Allocating 1048576 bytes for 693696 hashPages.
+2026-11-13 07:11:48.14 Server      Buffer pool extension is already disabled. No action is necessary.
+2026-11-13 07:11:48.99 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
+2026-11-13 07:11:49.04 Server      Query Store settings initialized with enabled = 1, 
+2026-11-13 07:11:49.06 Server      Node configuration: node 0: CPU mask: 0x000000000000000f:0 Active CPU mask: 0x000000000000000f:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2026-11-13 07:11:49.07 Server      Using dynamic lock allocation.  Initial allocation of 500 Lock blocks and 1000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
+2026-11-13 07:11:49.08 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
+2026-11-13 07:11:49.09 Server      Total Log Writer threads: 1. This is an informational message; no user action is required.
+2026-11-13 07:11:49.10 Server      Software Usage Metrics is disabled.
+2026-11-13 07:11:49.11 spid8s      [1]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 0. CleanupUnderUserTransaction: 0.
+2026-11-13 07:11:49.12 spid8s      Starting up database 'master'.
+2026-11-13 07:11:49.22 spid8s      Refresh DEK for DBID: [1] File Id: [1] - Zeroring encryption state
+2026-11-13 07:11:49.22 spid8s      The DEK is already set for DBID = [1] file id 1.
+2026-11-13 07:11:49.33 spid8s      Refresh DEK for DBID: [1] File Id: [2] - Zeroring encryption state
+2026-11-13 07:11:49.33 spid8s      The DEK is already set for DBID = [1] file id 2.
+2026-11-13 07:11:49.35 spid8s      17 transactions rolled forward in database 'master' (1:0). This is an informational message only. No user action is required.
+2026-11-13 07:11:49.36 spid8s      0 transactions rolled back in database 'master' (1:0). This is an informational message only. No user action is required.
+2026-11-13 07:11:49.36 spid8s      Recovery is writing a checkpoint in database 'master' (1). This is an informational message only. No user action is required.
+2026-11-13 07:11:49.64 spid8s      SQL Server Audit is starting the audits. This is an informational message. No user action is required.
+2026-11-13 07:11:49.64 spid8s      SQL Server Audit has started the audits. This is an informational message. No user action is required.
+2026-11-13 07:11:49.70 spid8s      SQL Trace ID 1 was started by login "sa".
+2026-11-13 07:11:49.71 spid8s      Server name is '4da18c58c12d'. This is an informational message only. No user action is required.
+2026-11-13 07:11:49.71 spid24s     [4]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 0. CleanupUnderUserTransaction: 0.
+2026-11-13 07:11:49.72 spid25s     [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 0. CleanupUnderUserTransaction: 0.
+2026-11-13 07:11:49.72 spid11s     [32767]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 0. CleanupUnderUserTransaction: 0.
+2026-11-13 07:11:49.72 spid24s     Starting up database 'msdb'.
+2026-11-13 07:11:49.72 spid11s     Starting up database 'mssqlsystemresource'.
+2026-11-13 07:11:49.72 spid25s     Starting up database 'library'.
+2026-11-13 07:11:49.72 spid11s     Refresh DEK for DBID: [32767] File Id: [1] - Copying encryption state
+2026-11-13 07:11:49.73 spid11s     DBID: [32767] File Header for File Id: [1] was read with state = 0.
+2026-11-13 07:11:49.73 spid11s     DBID: [32767] No DEK update for File Id: [1] while existing DEK is null.
+2026-11-13 07:11:49.73 spid11s     The resource database build version is 15.00.2000. This is an informational message only. No user action is required.
+2026-11-13 07:11:49.73 spid11s     Refresh DEK for DBID: [32767] File Id: [2] - Copying encryption state
+2026-11-13 07:11:49.74 spid11s     DBID: [32767] File Header for File Id: [2] was read with state = 0.
+2026-11-13 07:11:49.74 spid11s     DBID: [32767] No DEK update for File Id: [2] while existing DEK is null.
+2026-11-13 07:11:49.75 spid11s     [3]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 0. CleanupUnderUserTransaction: 0.
+2026-11-13 07:11:49.75 spid11s     Starting up database 'model'.
+2026-11-13 07:11:49.86 spid25s     Refresh DEK for DBID: [5] File Id: [1] - Copying encryption state
+2026-11-13 07:11:49.86 spid25s     DBID: [5] File Header for File Id: [1] was read with state = 0.
+2026-11-13 07:11:49.86 spid25s     DBID: [5] No DEK update for File Id: [1] while existing DEK is null.
+2026-11-13 07:11:49.86 spid24s     Refresh DEK for DBID: [4] File Id: [1] - Copying encryption state
+2026-11-13 07:11:49.87 spid24s     DBID: [4] File Header for File Id: [1] was read with state = 0.
+2026-11-13 07:11:49.87 spid24s     DBID: [4] No DEK update for File Id: [1] while existing DEK is null.
+2026-11-13 07:11:49.88 spid11s     Refresh DEK for DBID: [3] File Id: [1] - Zeroring encryption state
+2026-11-13 07:11:49.88 spid11s     The DEK is already set for DBID = [3] file id 1.
+2026-11-13 07:11:49.98 spid25s     Refresh DEK for DBID: [5] File Id: [2] - Copying encryption state
+2026-11-13 07:11:49.98 spid25s     DBID: [5] File Header for File Id: [2] was read with state = 0.
+2026-11-13 07:11:49.98 spid25s     DBID: [5] No DEK update for File Id: [2] while existing DEK is null.
+2026-11-13 07:11:49.99 spid25s     Parallel redo is started for database 'library' with worker pool size [2].
+2026-11-13 07:11:49.99 spid24s     Refresh DEK for DBID: [4] File Id: [2] - Copying encryption state
+2026-11-13 07:11:50.00 spid24s     DBID: [4] File Header for File Id: [2] was read with state = 0.
+2026-11-13 07:11:50.00 spid24s     DBID: [4] No DEK update for File Id: [2] while existing DEK is null.
+2026-11-13 07:11:50.01 spid22s     A self-generated certificate was successfully loaded for encryption.
+2026-11-13 07:11:50.02 spid24s     1 transactions rolled forward in database 'msdb' (4:0). This is an informational message only. No user action is required.
+2026-11-13 07:11:50.02 spid25s     68 transactions rolled forward in database 'library' (5:0). This is an informational message only. No user action is required.
+2026-11-13 07:11:50.03 spid22s     Server is listening on [ 'any' <ipv6> 1433] accept sockets 1.
+2026-11-13 07:11:50.03 spid22s     Server is listening on [ 'any' <ipv4> 1433] accept sockets 1.
+2026-11-13 07:11:50.03 spid22s     Dedicated administrator connection support was not started because it is disabled on this edition of SQL Server. If you want to use a dedicated administrator connection, restart SQL Server using the trace flag 7806. This is an informational message only. No user action is required.
+2026-11-13 07:11:50.04 spid22s     Server is listening on [ ::1 <ipv6> 1431] accept sockets 1.
+2026-11-13 07:11:50.04 spid22s     Server is listening on [ 127.0.0.1 <ipv4> 1431] accept sockets 1.
+2026-11-13 07:11:50.04 spid22s     SQL Server is now ready for client connections. This is an informational message; no user action is required.
+2026-11-13 07:11:50.05 spid11s     Refresh DEK for DBID: [3] File Id: [2] - Zeroring encryption state
+2026-11-13 07:11:50.05 spid11s     The DEK is already set for DBID = [3] file id 2.
+2026-11-13 07:11:50.05 spid11s     3 transactions rolled forward in database 'model' (3:0). This is an informational message only. No user action is required.
+2026-11-13 07:11:50.06 spid11s     0 transactions rolled back in database 'model' (3:0). This is an informational message only. No user action is required.
+2026-11-13 07:11:50.06 spid11s     Recovery is writing a checkpoint in database 'model' (3). This is an informational message only. No user action is required.
+2026-11-13 07:11:50.08 spid11s     Clearing tempdb database.
+2026-11-13 07:11:50.08 spid25s     0 transactions rolled back in database 'msdb' (4:0). This is an informational message only. No user action is required.
+2026-11-13 07:11:50.08 spid25s     Recovery is writing a checkpoint in database 'msdb' (4). This is an informational message only. No user action is required.
+2026-11-13 07:11:50.09 spid24s     0 transactions rolled back in database 'library' (5:0). This is an informational message only. No user action is required.
+2026-11-13 07:11:50.09 spid24s     Recovery is writing a checkpoint in database 'library' (5). This is an informational message only. No user action is required.
+2026-11-13 07:11:50.09 spid24s     Parallel redo is shutdown for database 'library' with worker pool size [2].
+2026-11-13 07:11:50.16 Server      Server is listening on [ 127.0.0.1 <ipv4> 14300] accept sockets 1.
+2026-11-13 07:11:50.17 Server      Server is listening on [ 127.0.0.1 <ipv4> 45899] accept sockets 1.
+2026-11-13 07:11:50.48 spid11s     Refresh DEK for DBID: [2] File Id: [1] - Copying encryption state
+2026-11-13 07:11:50.48 spid11s     DBID: [2] File Header for File Id: [1] was read with state = 0.
+2026-11-13 07:11:50.48 spid11s     DBID: [2] No DEK update for File Id: [1] while existing DEK is null.
+2026-11-13 07:11:50.53 spid11s     Refresh DEK for DBID: [2] File Id: [2] - Copying encryption state
+2026-11-13 07:11:50.54 spid11s     DBID: [2] File Header for File Id: [2] was read with state = 0.
+2026-11-13 07:11:50.54 spid11s     DBID: [2] No DEK update for File Id: [2] while existing DEK is null.
+2026-11-13 07:11:50.55 spid11s     [2]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 0. CleanupUnderUserTransaction: 0.
+2026-11-13 07:11:50.55 spid11s     Starting up database 'tempdb'.
+2026-11-13 07:11:50.64 spid11s     Refresh DEK for DBID: [2] File Id: [1] - Copying encryption state
+2026-11-13 07:11:50.64 spid11s     DBID: [2] File Header for File Id: [1] was read with state = 0.
+2026-11-13 07:11:50.65 spid11s     DBID: [2] No DEK update for File Id: [1] while existing DEK is null.
+2026-11-13 07:11:50.75 spid11s     Refresh DEK for DBID: [2] File Id: [2] - Copying encryption state
+2026-11-13 07:11:50.75 spid11s     DBID: [2] File Header for File Id: [2] was read with state = 0.
+2026-11-13 07:11:50.75 spid11s     DBID: [2] No DEK update for File Id: [2] while existing DEK is null.
+2026-11-13 07:11:50.86 spid11s     The tempdb database has 1 data file(s).
+2026-11-13 07:11:50.87 spid8s      Recovery is complete. This is an informational message only. No user action is required.
+2026-11-13 07:11:50.87 spid25s     The Service Broker endpoint is in disabled or stopped state.
+2026-11-13 07:11:50.87 spid25s     The Database Mirroring endpoint is in disabled or stopped state.
+2026-11-13 07:11:50.89 spid25s     Service Broker manager has started.
+2026-11-13 07:11:51.49 Server      Configuring Always Encrypted enclave in asynchronous mode.
+2026-11-13 07:12:21.77 spid61      Attempting to load library 'xplog70.dll' into memory. This is an informational message only. No user action is required.
+2026-11-13 07:12:21.87 spid61      Using 'xplog70.dll' version '2019.150.2000' to execute extended stored procedure 'xp_msver'. This is an informational message only; no user action is required.
+2026-11-13 07:52:57.56 Logon       Error: 18456, Severity: 14, State: 8.
+2026-11-13 07:52:57.56 Logon       Login failed for user 'sa'. Reason: Password did not match that for the login provided. [CLIENT: 10.89.1.3]
+2026-11-13 07:53:08.22 Logon       Error: 18456, Severity: 14, State: 8.
+2026-11-13 07:53:08.22 Logon       Login failed for user 'sa'. Reason: Password did not match that for the login provided. [CLIENT: 10.89.1.3]
+2026-11-13 07:54:06.40 spid61      Attempting to load library 'xpstar.dll' into memory. This is an informational message only. No user action is required.
+2026-11-13 07:54:06.59 spid61      Using 'xpstar.dll' version '2019.150.2000' to execute extended stored procedure 'xp_instance_regread'. This is an informational message only; no user action is required.

@@ -7,6 +7,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 public class BorrowerService {
 
@@ -28,5 +30,12 @@ public class BorrowerService {
         Borrower saved = borrowerRepository.save(new Borrower(name, email));
         log.info("Registered borrower {}", saved.getId());
         return BorrowerResponse.from(saved);
+    }
+
+    @Transactional(readOnly = true)
+    public List<BorrowerResponse> list() {
+        return borrowerRepository.findAllByOrderByIdAsc().stream()
+                .map(BorrowerResponse::from)
+                .toList();
     }
 }
